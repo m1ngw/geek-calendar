@@ -526,4 +526,53 @@ DTSTART;VALUE=DATE:19830926
 DTEND;VALUE=DATE:19830927
 RRULE:FREQ=YEARLY
 END:VEVENT
+BEGIN:VEVENT
+UID:phi-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌻 Phi Day — 1.618…
+DESCRIPTION:18 June. The golden ratio φ ≈ 1.6180339887… Read 6/18 as "1\,6\,1\,8" and squint. Found in pinecones\, nautilus shells\, and overconfident design talks.
+DTSTART;VALUE=DATE:20000618
+DTEND;VALUE=DATE:20000619
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:pythagorean-theorem-day-2026@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📐 Pythagorean Theorem Day
+DESCRIPTION:24 October 2026. 10² + 24² = 26². The next time month\, day and year-suffix form a Pythagorean triple. Previous: 24 July 2025 (7\,24\,25). Next: not in this century.
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+END:VEVENT
+BEGIN:VEVENT
+UID:square-root-day-2036@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:√ Square Root Day — 6/6/36
+DESCRIPTION:6 June 2036. √36 = 6. Eat root vegetables. Cube ones if you must. Happens nine times a century.
+DTSTART;VALUE=DATE:20360606
+DTEND;VALUE=DATE:20360607
+END:VEVENT
+BEGIN:VEVENT
+UID:square-root-day-2049@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:√ Square Root Day — 7/7/49
+DESCRIPTION:7 July 2049. √49 = 7. Carrots and lucky sevens.
+DTSTART;VALUE=DATE:20490707
+DTEND;VALUE=DATE:20490708
+END:VEVENT
+BEGIN:VEVENT
+UID:square-root-day-2064@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:√ Square Root Day — 8/8/64
+DESCRIPTION:8 August 2064. √64 = 8. Also infinity-on-its-side day's overachieving cousin.
+DTSTART;VALUE=DATE:20640808
+DTEND;VALUE=DATE:20640809
+END:VEVENT
+BEGIN:VEVENT
+UID:square-root-day-2081@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:√ Square Root Day — 9/9/81
+DESCRIPTION:9 September 2081. √81 = 9. The last Square Root Day of the 21st century. Make it count.
+DTSTART;VALUE=DATE:20810909
+DTEND;VALUE=DATE:20810910
+END:VEVENT
 END:VCALENDAR

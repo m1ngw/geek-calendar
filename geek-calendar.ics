@@ -464,4 +464,66 @@ DESCRIPTION:5 April 2063. Zefram Cochrane's warp flight catches a passing Vulcan
 DTSTART;VALUE=DATE:20630405
 DTEND;VALUE=DATE:20630406
 END:VEVENT
+BEGIN:VEVENT
+UID:alien-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:👽 Alien Day — LV-426
+DESCRIPTION:4/26 — the moon LV-426 from Alien (1979). In space\, no one can hear you organise themed cocktails.
+DTSTART;VALUE=DATE:20160426
+DTEND;VALUE=DATE:20160427
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:mayan-apocalypse@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌎 Mayan Apocalypse — Still Here
+DESCRIPTION:21 December 2012. The 13th b'ak'tun ended. The world emphatically did not. Anniversary toast: "Still here."
+DTSTART;VALUE=DATE:20121221
+DTEND;VALUE=DATE:20121222
+END:VEVENT
+BEGIN:VEVENT
+UID:bitcoin-genesis@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🟧 Bitcoin Genesis Block
+DESCRIPTION:3 January 2009. Block 0 mined. Encoded in the coinbase: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks." Subtle.
+DTSTART;VALUE=DATE:20090103
+DTEND;VALUE=DATE:20090104
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:first-tweet@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐦 First Tweet — "just setting up my twttr"
+DESCRIPTION:21 March 2006. Jack Dorsey types five words. The discourse has not recovered.
+DTSTART;VALUE=DATE:20060321
+DTEND;VALUE=DATE:20060322
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:iphone-announced@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📱 iPhone Announced
+DESCRIPTION:9 January 2007. Steve Jobs at Macworld: "an iPod\, a phone\, and an internet communicator". Pause. "Are you getting it?"
+DTSTART;VALUE=DATE:20070109
+DTEND;VALUE=DATE:20070110
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:rfc-1@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📜 RFC 1 — "Host Software"
+DESCRIPTION:7 April 1969. Steve Crocker writes the first Request For Comments. Apologetic in tone\, foundational in fact. The internet has been politely arguing in plain text ever since.
+DTSTART;VALUE=DATE:19690407
+DTEND;VALUE=DATE:19690408
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:stanislav-petrov@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:☢️ The Man Who Saved the World — Stanislav Petrov
+DESCRIPTION:26 September 1983. Soviet early-warning satellites reported five US missiles inbound. Lt. Col. Petrov correctly judged it a glitch and did not escalate. You exist because of this man.
+DTSTART;VALUE=DATE:19830926
+DTEND;VALUE=DATE:19830927
+RRULE:FREQ=YEARLY
+END:VEVENT
 END:VCALENDAR

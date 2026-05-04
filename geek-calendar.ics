@@ -575,4 +575,112 @@ DESCRIPTION:9 September 2081. √81 = 9. The last Square Root Day of the 21st ce
 DTSTART;VALUE=DATE:20810909
 DTEND;VALUE=DATE:20810910
 END:VEVENT
+BEGIN:VEVENT
+UID:pale-blue-dot@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🔵 Pale Blue Dot
+DESCRIPTION:14 February 1990. At Carl Sagan's urging\, Voyager 1 turned its camera back from 6 billion km away and photographed Earth as a single pixel. "Look again at that dot. That's here. That's home. That's us."
+DTSTART;VALUE=DATE:19900214
+DTEND;VALUE=DATE:19900215
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:dolly-announced@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐑 Dolly Announced — "Hello\, World"
+DESCRIPTION:22 February 1997. The Roslin Institute reveals Dolly to the public. The first cloned mammal stops being a secret. (She was born 5 July 1996.)
+DTSTART;VALUE=DATE:19970222
+DTEND;VALUE=DATE:19970223
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:planck-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:⚛️ Max Planck's Birthday — Father of the Quantum
+DESCRIPTION:Born 23 April 1858. Reluctantly invented quantum mechanics in 1900\, then spent 20 years trying to put the genie back in the bottle. The genie declined.
+DTSTART;VALUE=DATE:18580423
+DTEND;VALUE=DATE:18580424
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:hubble-launch@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🔭 Hubble Space Telescope Launched
+DESCRIPTION:24 April 1990. Deployed from Discovery's payload bay. Returned the first images blurry — turned out the mirror had been ground to the wrong shape by 2.2 micrometres. Fixed in orbit\, 1993.
+DTSTART;VALUE=DATE:19900424
+DTEND;VALUE=DATE:19900425
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:feynman-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🥁 Richard Feynman's Birthday — Surely You're Joking
+DESCRIPTION:Born 11 May 1918. Bongo player\, safecracker\, Nobel laureate\, the man who explained the Challenger disaster with a glass of ice water and a rubber O-ring on live TV.
+DTSTART;VALUE=DATE:19180511
+DTEND;VALUE=DATE:19180512
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:hgp-draft@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🧬 Human Genome Draft Announced
+DESCRIPTION:26 June 2000. Clinton and Blair announce the working draft via simultaneous press conference. "We are learning the language in which God created life."
+DTSTART;VALUE=DATE:20000626
+DTEND;VALUE=DATE:20000627
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:louise-brown@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:👶 Louise Brown — First IVF Baby
+DESCRIPTION:25 July 1978\, 23:47 in Oldham\, England. The first human born from in vitro fertilisation. Robert Edwards won the Nobel for it 32 years later.
+DTSTART;VALUE=DATE:19780725
+DTEND;VALUE=DATE:19780726
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:rutherford-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:☢️ Ernest Rutherford's Birthday
+DESCRIPTION:Born 30 August 1871 in New Zealand. Discovered the atomic nucleus by firing alpha particles at gold foil and watching some bounce back. "It was as if you fired a 15-inch shell at tissue paper and it came back at you."
+DTSTART;VALUE=DATE:18710830
+DTEND;VALUE=DATE:18710831
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:bohr-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:⚛️ Niels Bohr's Birthday — Copenhagen Interpretation
+DESCRIPTION:Born 7 October 1885. Drew the atom you remember from school. Argued with Einstein for thirty years about whether God plays dice. Was probably right.
+DTSTART;VALUE=DATE:18851007
+DTEND;VALUE=DATE:18851008
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:chicago-pile-1@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:☢️ First Sustained Nuclear Chain Reaction
+DESCRIPTION:2 December 1942. Fermi's team at the University of Chicago achieves criticality in Chicago Pile-1\, beneath the disused squash courts of Stagg Field. The Atomic Age begins under a stadium.
+DTSTART;VALUE=DATE:19421202
+DTEND;VALUE=DATE:19421203
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:heisenberg-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🤷 Werner Heisenberg's Birthday — Probably
+DESCRIPTION:Born 5 December 1901. Or possibly somewhere nearby. We can't know both his birthday and his whereabouts with arbitrary precision.
+DTSTART;VALUE=DATE:19011205
+DTEND;VALUE=DATE:19011206
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:jwst-launch@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🪞 JWST Launched — Christmas in Space
+DESCRIPTION:25 December 2021. Ariane 5 lifts the James Webb Space Telescope from Kourou. 30 years of development. ~344 single points of failure during deployment. Every single one worked.
+DTSTART;VALUE=DATE:20211225
+DTEND;VALUE=DATE:20211226
+RRULE:FREQ=YEARLY
+END:VEVENT
 END:VCALENDAR

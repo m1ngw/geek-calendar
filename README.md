@@ -2,7 +2,7 @@
 
 A subscribable calendar of geeky in-jokes, puns, and meme-holidays. May the 4th, Pi Day, Towel Day, Mole Day, MAR10 Day, Talk Like a Pirate Day, Hobbit Day, and 40-odd more.
 
-The single source is [`geek-calendar.ics`](geek-calendar.ics) — 64 events, all all-day, most recurring yearly.
+The single source is [`geek-calendar.ics`](geek-calendar.ics) — 76 events, all all-day, most recurring yearly.
 
 ## Subscribe (recommended — auto-updates)
 

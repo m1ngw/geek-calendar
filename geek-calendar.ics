@@ -1,0 +1,467 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//geek-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Geek Calendar
+X-WR-CALDESC:Punny\, meme-y\, in-joke geek holidays. May the 4th\, Pi Day\, Towel Day\, Mole Day\, Talk Like a Pirate Day\, Mario Day\, Hobbit Day\, and friends.
+X-WR-TIMEZONE:UTC
+X-PUBLISHED-TTL:P7D
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+BEGIN:VEVENT
+UID:unix-epoch-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🎂 Happy Birthday\, Unix
+DESCRIPTION:1 January 1970 — the Unix epoch. Time itself was born. Whisper "time_t = 0" into a terminal at midnight.
+DTSTART;VALUE=DATE:19700101
+DTEND;VALUE=DATE:19700102
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:asimov-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📚 Asimov Day — Three Laws Compliance Audit
+DESCRIPTION:Isaac Asimov's (chosen) birthday\, 2 January 1920. Spend the day verifying that none of your robots are harming humans through inaction.
+DTSTART;VALUE=DATE:19200102
+DTEND;VALUE=DATE:19200103
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:tolkien-toast@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🍷 The Professor — Tolkien's Birthday
+DESCRIPTION:J.R.R. Tolkien born 3 January 1892. The Tolkien Society raises a glass at 21:00 local time: "The Professor!"
+DTSTART;VALUE=DATE:18920103
+DTEND;VALUE=DATE:18920104
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:hawking-galileo@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🪐 Hawking In\, Galileo Out
+DESCRIPTION:Stephen Hawking born 8 January 1942 — exactly 300 years after Galileo died. The cosmos files its paperwork on time.
+DTSTART;VALUE=DATE:19420108
+DTEND;VALUE=DATE:19420109
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:y2038@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🕰️ The Epochalypse (Y2038)
+DESCRIPTION:03:14:07 UTC\, 19 January 2038 — signed 32-bit time_t overflows. Pi Time on the day Unix forgets how to count. You have been warned.
+DTSTART;VALUE=DATE:20380119
+DTEND;VALUE=DATE:20380120
+END:VEVENT
+BEGIN:VEVENT
+UID:e-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🧮 e Day
+DESCRIPTION:2/7 ≈ 2.718. Pi Day's introverted cousin who actually understands compound interest.
+DTSTART;VALUE=DATE:20000207
+DTEND;VALUE=DATE:20000208
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:darwin-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐢 Darwin Day — Survival of the Wittiest
+DESCRIPTION:Charles Darwin born 12 February 1809. Adapt or perish. Preferably adapt.
+DTSTART;VALUE=DATE:18090212
+DTEND;VALUE=DATE:18090213
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:schrodinger-cat-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐈‍⬛ Schrödinger's Cat Day
+DESCRIPTION:12 August is Erwin Schrödinger's birthday (1887). His cat is\, has been\, and always will be\, simultaneously celebrating and not celebrating.
+DTSTART;VALUE=DATE:18870812
+DTEND;VALUE=DATE:18870813
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:mario-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🍄 MAR10 Day — Mario Day
+DESCRIPTION:Squint at "MAR10" and you see "MARIO". It's-a him. Officially recognised by Nintendo since 2016.
+DTSTART;VALUE=DATE:20160310
+DTEND;VALUE=DATE:20160311
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:adams-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐬 So Long\, and Thanks for Being Born — Douglas Adams
+DESCRIPTION:Douglas Adams born 11 March 1952. Don't panic. Always know where your towel is.
+DTSTART;VALUE=DATE:19520311
+DTEND;VALUE=DATE:19520312
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🥧 Pi Day — 3.14
+DESCRIPTION:March 14. Eat pie. Recite digits. Einstein was born today (1879)\, Hawking died today (2018)\, and π keeps going forever.
+DTSTART;VALUE=DATE:18790314
+DTEND;VALUE=DATE:18790315
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:tolkien-reading-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:💍 The Ring is Destroyed — Tolkien Reading Day
+DESCRIPTION:25 March — Sauron falls\, the One Ring melts in Mount Doom. Read aloud in your best Andy Serkis impression.
+DTSTART;VALUE=DATE:20030325
+DTEND;VALUE=DATE:20030326
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:matrix-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:💊 Red Pill Day — The Matrix
+DESCRIPTION:31 March 1999. Choose wisely. Free your mind. (Maybe restart it first.)
+DTSTART;VALUE=DATE:19990331
+DTEND;VALUE=DATE:19990401
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:rfc-1149-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐦 RFC 1149 Day — IP-over-Avian-Carriers
+DESCRIPTION:1 April 1990. Standard for transmitting IP datagrams via homing pigeon. Latency: poor. Bandwidth at altitude: surprisingly good.
+DTSTART;VALUE=DATE:19900401
+DTEND;VALUE=DATE:19900402
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:hitchhiker-42-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌌 4/2 — The Answer
+DESCRIPTION:April 2nd. Spend the day searching for the Question to which the Answer is forty-two.
+DTSTART;VALUE=DATE:20000402
+DTEND;VALUE=DATE:20000403
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:dna-perfect-date@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🧬 DNA Day — A Perfect Date
+DESCRIPTION:25 April 1953 — Watson & Crick's double helix paper. Also Miss Congeniality's "perfect date": April 25\, not too hot\, not too cold.
+DTSTART;VALUE=DATE:19530425
+DTEND;VALUE=DATE:19530426
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:may-the-fourth@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:⚔️ May the 4th Be With You
+DESCRIPTION:Star Wars Day. Lightsaber duels in the parking lot. Wookiee impressions in elevators. Greet colleagues by mispronouncing it deliberately.
+DTSTART;VALUE=DATE:20000504
+DTEND;VALUE=DATE:20000505
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:revenge-of-the-fifth@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌑 Revenge of the Fifth (Sith)
+DESCRIPTION:5 May. The day after Star Wars Day. The dark side strikes back. Wear black. Force-choke a meeting.
+DTSTART;VALUE=DATE:20000505
+DTEND;VALUE=DATE:20000506
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-blue-overlords@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🤖 I\, For One\, Welcome Our New Computer Overlords
+DESCRIPTION:11 May 1997: Deep Blue defeats Kasparov. Same day in 2001: Douglas Adams dies\, presumably mistaking Earth for Vogon real estate.
+DTSTART;VALUE=DATE:19970511
+DTEND;VALUE=DATE:19970512
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:towel-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🧻 Towel Day & Star Wars Released
+DESCRIPTION:25 May. Carry a towel. Look hoopy. Star Wars also opened in cinemas this day in 1977.
+DTSTART;VALUE=DATE:19770525
+DTEND;VALUE=DATE:19770526
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:doom-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🔫 6/6 — Rip and Tear Day
+DESCRIPTION:6 June. Boot up DOOM. Find the secret. The only good demon is a deleted one.
+DTSTART;VALUE=DATE:20000606
+DTEND;VALUE=DATE:20000607
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:bloomsday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📖 Bloomsday — Joyce's Ulysses
+DESCRIPTION:16 June 1904 — the day Leopold Bloom wandered Dublin in James Joyce's Ulysses. Lit-geek superbowl. Eat a kidney for breakfast.
+DTSTART;VALUE=DATE:19040616
+DTEND;VALUE=DATE:19040617
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:turing-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🍎 Turing Day — Imitate a Human
+DESCRIPTION:Alan Turing born 23 June 1912. Try to convince someone over text that you're a human. Reverse Turing Test.
+DTSTART;VALUE=DATE:19120623
+DTEND;VALUE=DATE:19120624
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:tau-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🔁 Tau Day — Twice the Pie
+DESCRIPTION:6/28. τ = 2π. Eat two pies. The radian's true champion.
+DTSTART;VALUE=DATE:20100628
+DTEND;VALUE=DATE:20100629
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:goldblum-virus@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:💻 Independence Day — Macs Save the World
+DESCRIPTION:4 July 1996. Jeff Goldblum uploads a virus to the alien mothership using a PowerBook. The greatest cross-platform compatibility achievement in cinematic history.
+DTSTART;VALUE=DATE:19960704
+DTEND;VALUE=DATE:19960705
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:dolly-the-sheep@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🐑 Hello Dolly — First Cloned Mammal
+DESCRIPTION:5 July 1996. Dolly the sheep is born at the Roslin Institute. Named after Dolly Parton because she was cloned from a mammary cell. We don't make this up.
+DTSTART;VALUE=DATE:19960705
+DTEND;VALUE=DATE:19960706
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:moon-landing@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌕 The Eagle Has Landed
+DESCRIPTION:20 July 1969\, 20:17 UTC. Two humans on another world. Buzz Aldrin took communion. NASA didn't mention it for years.
+DTSTART;VALUE=DATE:19690720
+DTEND;VALUE=DATE:19690721
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:pi-approximation-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🥧 Pi Approximation Day — 22/7
+DESCRIPTION:22 July. 22÷7 = 3.142857… closer to π than 3.14 actually. Pi Day's overachieving sibling.
+DTSTART;VALUE=DATE:20000722
+DTEND;VALUE=DATE:20000723
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:fellowship-published@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:💍 The Road Goes Ever On — Fellowship Published
+DESCRIPTION:29 July 1954. Volume one of LOTR hits shelves. Nine companions. One ring. Several thousand pages of Elvish poetry.
+DTSTART;VALUE=DATE:19540729
+DTEND;VALUE=DATE:19540730
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:infinity-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:♾️ 8/8 — Infinity-on-Its-Side Day
+DESCRIPTION:August 8. Tilt your head. Lemniscate. Aleph-null jokes only.
+DTSTART;VALUE=DATE:20000808
+DTEND;VALUE=DATE:20000809
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:schrodinger-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📦 Schrödinger Born/Not Born
+DESCRIPTION:Erwin Schrödinger born 12 August 1887. Until you check this calendar entry\, the celebration is in superposition.
+DTSTART;VALUE=DATE:18870812
+DTEND;VALUE=DATE:18870813
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:skynet-self-aware@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🤖 Judgment Day — Skynet Self-Aware
+DESCRIPTION:02:14 EDT\, 29 August 1997 (per T2). Skynet becomes self-aware. So far so good. Hasta la vista.
+DTSTART;VALUE=DATE:19970829
+DTEND;VALUE=DATE:19970830
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:tolkien-death@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:📜 Mithrandir Sails West — Tolkien's Death
+DESCRIPTION:2 September 1973. The Professor takes ship from the Grey Havens. Light a candle\, eat second breakfast.
+DTSTART;VALUE=DATE:19730902
+DTEND;VALUE=DATE:19730903
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:star-trek-tos@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🖖 Live Long and Prosper — Star Trek Premieres
+DESCRIPTION:8 September 1966. NBC airs "The Man Trap". Space\, the final frontier. (For 79 episodes\, anyway.)
+DTSTART;VALUE=DATE:19660908
+DTEND;VALUE=DATE:19660909
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:programmers-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:👨‍💻 Programmer's Day — 256
+DESCRIPTION:13 September: the 256th day of the year (in non-leap years). The largest power of 2 that fits in a year. Officially recognised in Russia.
+DTSTART;VALUE=DATE:20090913
+DTEND;VALUE=DATE:20090914
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:talk-like-pirate@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🏴‍☠️ Talk Like a Pirate Day — Arrr 2 D 2
+DESCRIPTION:19 September. Replace "yes" with "aye". Replace "R2-D2" with "Arrr 2 D 2". Wear an eyepatch to standup.
+DTSTART;VALUE=DATE:19950919
+DTEND;VALUE=DATE:19950920
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:21st-night-of-september@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🎶 Do You Remember… The 21st Night of September?
+DESCRIPTION:21 September. Earth\, Wind & Fire's eternal question. Also: The Hobbit was published this day in 1937\, and H.G. Wells was born this day in 1866. Coincidence?
+DTSTART;VALUE=DATE:19370921
+DTEND;VALUE=DATE:19370922
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:hobbit-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🍳 Hobbit Day — Second Breakfast
+DESCRIPTION:22 September. Bilbo and Frodo's birthday. Eat: breakfast\, second breakfast\, elevenses\, luncheon\, afternoon tea\, dinner\, supper. In that order.
+DTSTART;VALUE=DATE:20000922
+DTEND;VALUE=DATE:20000923
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:groot-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌳 I Am Groot Day
+DESCRIPTION:1 August 2014. Guardians of the Galaxy released. Acceptable responses today: "I am Groot"\, "I am Groot"\, and "I AM GROOT".
+DTSTART;VALUE=DATE:20140801
+DTEND;VALUE=DATE:20140802
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:binary-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🔢 10/10 — Binary Day
+DESCRIPTION:October 10th. 1010 in binary is ten. The date is itself in binary AND decimal. Beautiful\, isn't it.
+DTSTART;VALUE=DATE:20001010
+DTEND;VALUE=DATE:20001011
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:bttf-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🛹 Where We're Going We Don't Need Roads
+DESCRIPTION:21 October 2015. Marty McFly arrives in the future. Inspect surroundings for hoverboards\, self-lacing shoes\, and lawyers' abolition. (Two out of three\, eventually.)
+DTSTART;VALUE=DATE:20151021
+DTEND;VALUE=DATE:20151022
+END:VEVENT
+BEGIN:VEVENT
+UID:mole-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🦫 Mole Day — 6.02 × 10²³
+DESCRIPTION:23 October\, 06:02 to 18:02. Avogadro's number\, in date form. Bake a cake. Mole shape optional.
+DTSTART;VALUE=DATE:20001023
+DTEND;VALUE=DATE:20001024
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:bitcoin-whitepaper@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🟧 Halloween of Money — Bitcoin Whitepaper
+DESCRIPTION:31 October 2008. Satoshi Nakamoto posts the Bitcoin whitepaper. Trick\, treat\, or peer-to-peer electronic cash.
+DTSTART;VALUE=DATE:20081031
+DTEND;VALUE=DATE:20081101
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:remember-remember@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🎭 Remember\, Remember\, the Fifth of November
+DESCRIPTION:Guy Fawkes Night (1605). Co-opted by V for Vendetta and every Anonymous mask ever printed. Light a sparkler responsibly.
+DTSTART;VALUE=DATE:16051105
+DTEND;VALUE=DATE:16051106
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:carl-sagan-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌌 Pale Blue Dot — Carl Sagan's Birthday
+DESCRIPTION:Carl Sagan born 9 November 1934. Look up. Whisper "billions and billions". Be kind to your fellow specks.
+DTSTART;VALUE=DATE:19341109
+DTEND;VALUE=DATE:19341110
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:fibonacci-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🌻 Fibonacci Day — 1\, 1\, 2\, 3
+DESCRIPTION:11/23 = 1\, 1\, 2\, 3. The first four Fibonacci numbers spelling out today's date. The universe is mostly spirals.
+DTSTART;VALUE=DATE:20001123
+DTEND;VALUE=DATE:20001124
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:roll-initiative-day@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🎲 Roll for Initiative — International Games Day
+DESCRIPTION:Saturday closest to 3 December (using 3 Dec as anchor). Roll a d20. Critical fail = order pizza. Critical success = also order pizza.
+DTSTART;VALUE=DATE:20001203
+DTEND;VALUE=DATE:20001204
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:lovelace-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:💻 Ada Lovelace — First Programmer
+DESCRIPTION:Born 10 December 1815. Wrote the first algorithm intended to be machine-executed. The compiler hadn't even been invented yet. Boss move.
+DTSTART;VALUE=DATE:18151210
+DTEND;VALUE=DATE:18151211
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:newton-OS@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🍎 It's a Unix System! / Newton's Old Birthday
+DESCRIPTION:25 December. Isaac Newton born this day in 1642 (Old Style). Also: it's Christmas. Reboot your relatives.
+DTSTART;VALUE=DATE:16421225
+DTEND;VALUE=DATE:16421226
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:ramanujan-bday@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🔢 Ramanujan Day — National Math Day (India)
+DESCRIPTION:Srinivasa Ramanujan born 22 December 1887. He saw infinite series the way you see traffic. 1729 = the smallest cab number expressible as the sum of two cubes in two different ways.
+DTSTART;VALUE=DATE:18871222
+DTEND;VALUE=DATE:18871223
+RRULE:FREQ=YEARLY
+END:VEVENT
+BEGIN:VEVENT
+UID:first-contact@geek-calendar
+DTSTAMP:20260504T000000Z
+SUMMARY:🖖 First Contact Day (2063)
+DESCRIPTION:5 April 2063. Zefram Cochrane's warp flight catches a passing Vulcan survey ship. Humanity grows up. Allegedly.
+DTSTART;VALUE=DATE:20630405
+DTEND;VALUE=DATE:20630406
+END:VEVENT
+END:VCALENDAR

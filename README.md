@@ -6,10 +6,10 @@ The single source is [`geek-calendar.ics`](geek-calendar.ics) — 51 events, all
 
 ## Subscribe (recommended — auto-updates)
 
-Subscribe via URL so new events show up automatically. Replace `<USER>` with the GitHub username hosting this repo:
+Subscribe via URL so new events show up automatically.
 
 ```
-https://raw.githubusercontent.com/<USER>/geek-calendar/main/geek-calendar.ics
+https://raw.githubusercontent.com/m1ngw/geek-calendar/main/geek-calendar.ics
 ```
 
 > If `https://` doesn't work, try `webcal://` instead — many calendar apps prefer it for subscriptions.

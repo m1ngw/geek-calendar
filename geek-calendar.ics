@@ -278,15 +278,6 @@ DTEND;VALUE=DATE:20000809
 RRULE:FREQ=YEARLY
 END:VEVENT
 BEGIN:VEVENT
-UID:schrodinger-bday@geek-calendar
-DTSTAMP:20260504T000000Z
-SUMMARY:📦 Schrödinger Born/Not Born
-DESCRIPTION:Erwin Schrödinger born 12 August 1887. Until you check this calendar entry\, the celebration is in superposition.
-DTSTART;VALUE=DATE:18870812
-DTEND;VALUE=DATE:18870813
-RRULE:FREQ=YEARLY
-END:VEVENT
-BEGIN:VEVENT
 UID:skynet-self-aware@geek-calendar
 DTSTAMP:20260504T000000Z
 SUMMARY:🤖 Judgment Day — Skynet Self-Aware
@@ -405,7 +396,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:carl-sagan-bday@geek-calendar
 DTSTAMP:20260504T000000Z
-SUMMARY:🌌 Pale Blue Dot — Carl Sagan's Birthday
+SUMMARY:🌌 Carl Sagan's Birthday
 DESCRIPTION:Carl Sagan born 9 November 1934. Look up. Whisper "billions and billions". Be kind to your fellow specks.
 DTSTART;VALUE=DATE:19341109
 DTEND;VALUE=DATE:19341110
